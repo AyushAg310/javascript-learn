@@ -4,7 +4,7 @@ const surname = "Agarwal"
 // console.log(name + surname + " Value")
 console.log(`My name is ${name} and my surname is ${surname}`)
 
-const gamename = new String('AyushAg')
+const gamename = new String('Ayush-Ag-20')
 
 console.log(gamename[0]);
 console.log(gamename.__proto__);
@@ -18,3 +18,10 @@ console.log(gamename.slice(-7,7))
 const newString = "   ayush   "
 console.log(newString)
 console.log(newString.trim())
+
+const url = "https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20','-'))
+
+console.log(url.includes("sundar"))
+
+console.log(gamename.split('-'))
