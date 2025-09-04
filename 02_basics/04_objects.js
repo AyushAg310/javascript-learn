@@ -54,4 +54,36 @@ console.log(Object.entries(tinderUser));
 
 console.log(Object.hasOwnProperty('isLoggedIn'));
 
+// Destructuring
+const course ={
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
 
+// course.courseInstructor
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+// React concept of Destructuring
+// const navbar = ({company}) => {
+
+//     }
+
+//     navbar(company = "hitesh")
+// }
+
+
+// JSON :- in the form of keys and value of string
+// {
+//     "name":"Hitesh",
+//     "coursename":"JS in Hindi",
+//     "price":"free"
+// }
+// or can be in form of Array
+
+[
+    {},
+    {},
+    {}
+]
